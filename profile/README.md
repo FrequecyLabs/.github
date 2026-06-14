@@ -16,16 +16,16 @@ That means the public codebase currently exposes the organization's product
 direction, but not the implementation architecture behind AI-generated sheet
 music and tabs. From the available repository, there are no documented service
 boundaries, runtime components, data flows, shared libraries, deployment
-pipelines, or cross-repository imports to inspect. If production systems exist,
-they are either private, outside this GitHub organization, archived in a way not
-returned by the API, or otherwise unavailable to this audit token.
+pipelines, or cross-repository imports to inspect. If production systems
+exist, they are either private, outside this GitHub organization, archived in a
+way not returned by the API, or otherwise unavailable to this audit token.
 
 The visible technology footprint is intentionally minimal. The `.github`
 repository contains Markdown documentation only: no `package.json`,
-`pyproject.toml`, `go.mod`, GitHub Actions workflows, Dockerfiles, or Compose
-files. A returning engineer should therefore avoid inferring that Frequency Labs
-lacks application code; the safer conclusion is that this organization profile
-repo is not enough to reconstruct the runtime stack.
+`pyproject.toml`, `go.mod`, GitHub Actions workflows, Dockerfiles, or
+Compose files. A returning engineer should therefore avoid inferring that
+Frequency Labs lacks application code; the safer conclusion is that this
+organization profile repo is not enough to reconstruct the runtime stack.
 
 The surprising part of the current organization shape is the gap between the
 mission statement and the visible implementation surface. Engineers rejoining
